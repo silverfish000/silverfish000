@@ -41,8 +41,6 @@ Voici les langages et outils avec lesquels je travaille :
 
 ---
 
-## 🏗️ Projets (en cours)
+## 🏗️ Projets :
 
-* 🎮 **Dans quelques jours** --> Minis jeux sur terminal
-* 💻 **Dans quelques semaines** --> Formation Python...
-* ⏳ **Dans quelques mois...** --> un jeu .io
+* Botinette

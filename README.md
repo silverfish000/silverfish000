@@ -9,7 +9,6 @@
 <div align="center">
   
   ![Status](https://img.shields.io/badge/statut-42_SCHOOL-3B82F6?style=for-the-badge)
-  ![Location](https://img.shields.io/badge/localisation-france-60A5FA?style=for-the-badge)
   ![Focus](https://img.shields.io/badge/focus-s%C3%A9curit%C3%A9-1E40AF?style=for-the-badge)
   
 </div>

@@ -16,7 +16,7 @@
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<img align="right" alt="Coding" width="300" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
 ### À propos
 
@@ -28,7 +28,6 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 - 🔐 Création d'outils sécurisés et respectueux de la vie privée
 - 📟 Création de CLI (mini games / outils tout types)
 
-**Stack actuelle :** C • Python • Linux • HTML/CSS • OSINT/CSINT
 
 ---
 
@@ -52,7 +51,7 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 
 ---
 
-### 📦 Projet Principal
+### 📦 Projet Python
 
 <div align="center">
 
@@ -60,11 +59,11 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 <tr>
 <td align="center" width="50%">
 
-#### 🔐 [PASS WORLD](https://github.com/silverfish000)
+#### 🔐 [PASS 'WORLD'](https://github.com/silverfish000)
 
 **Gestionnaire de Mots de Passe**
 
-Un système de gestion de mots de passe en Python avec chiffrement local et stockage sécurisé. Projet simple pour apprendre Python.
+Un système de gestion de mots de passe en Python avec un stockage local. Projet simple pour apprendre Python, que je compte améliorer au fur et à mesure de mon apprentissage du langage.
 
 `Python` `Sécurité` `CLI` `Projet basique`
 

@@ -58,13 +58,13 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 <tr>
 <td align="center" width="50%">
 
-#### 🔐 [PASS 'WORLD'](https://github.com/silverfish000/projet-n1)
+#### 🔐 [PASSWORD (v1)](https://github.com/silverfish000/projet-n1)
 
 **Gestionnaire de Mots de Passe**
 
-Un système de gestion de mots de passe en Python avec un stockage local. Projet simple pour apprendre Python, que je compte améliorer au fur et à mesure de mon apprentissage du langage.
+Un système de gestion de mots de passe en Python avec un stockage local. (Ce projet correspond à mes débuts en développement et est volontairement laissé imparfait afin de servir de référence pour mesurer mon évolution à travers les versions futures.)
 
-`Python` `Sécurité` `CLI` `Projet basique`
+`Python` `Sécurité` `CLI` `Projet basique` `NO ENCRYPT`
 
 </td>
 <td align="center" width="50%">

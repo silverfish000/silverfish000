@@ -89,9 +89,10 @@ Un système de gestion de mots de passe en Python avec un stockage local. (Ce pr
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-silverfish000-181717?style=for-the-badge&logo=github)](https://github.com/silverfish000)
+[![GitHub](https://img.shields.io/badge/GitHub-silverfish000-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silverfish000)
 [![Discord](https://img.shields.io/badge/Discord-silver000__0__-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/silver000_0_)
 [![Dev.to](https://img.shields.io/badge/dev.to-silver__0__-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/silver_0_)
+[![CodinGame](https://img.shields.io/badge/CodinGame-Silver000-F2BB13?style=for-the-badge&logo=codingame&logoColor=black)](https://www.codingame.com/profile/58d9710057d474c5fa5b81ac2c2756a83562207)
 
 </div>
 

@@ -19,7 +19,7 @@
 
 ### À propos
 
-Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025) 
+Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025 --> Retry Piscine 2026) 
 
 **Mes centres d'intérêt :**
 - 🔒 Cybersécurité & Ethical Hacking

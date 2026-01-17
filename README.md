@@ -19,7 +19,7 @@
 
 ### À propos
 
-Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025 --> Retry Piscine 2026) 
+Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025 → Retry Piscine 2026) 
 
 **Mes centres d'intérêt :**
 - 🔒 Cybersécurité & Ethical Hacking
@@ -50,29 +50,102 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 
 ---
 
-### 📦 Projet Python
+### 📦 Projets Python
+
+<details>
+<summary><b>🔐 PASSWORLD v2</b> - Gestionnaire de Mots de Passe (En développement)</summary>
+
+<br>
+
+**📊 Avancement du projet**
+
+![Progression](https://img.shields.io/badge/Progression-25%25-orange?style=for-the-badge)
+
+```
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 25%
+```
+
+**🎯 Objectif**
+
+Créer un gestionnaire de mots de passe sécurisé en ligne de commande, développé en Python. Ce projet est une refonte complète de la v1 pour apprendre à structurer une application avec la POO, comprendre les bases du chiffrement et créer un outil fonctionnel pour gérer mes mots de passe en local.
+
+**✨ Fonctionnalités**
+
+- ✅ Système de connexion avec mot de passe maître
+- ✅ Ajouter / modifier / supprimer des mots de passe
+- ✅ Recherche par nom
+- ✅ Générateur de mots de passe personnalisable
+- 🚧 Chiffrement des données (XOR + Base64)
+- 🚧 Sauvegarde en JSON
+- 📋 Interface CLI améliorée (à venir)
+
+**🏗️ Architecture POO**
+
+| Classe | Rôle |
+|--------|------|
+| `Password` | Représente un mot de passe (nom, mdp, url, notes, dates) |
+| `User` | Représente un utilisateur (pseudo, mot de passe maître) |
+| `PasswordManager` | Gère les mots de passe (ajout, modif, suppression, sauvegarde) |
+| `Validator` | Vérifie la solidité des mots de passe |
+| `Generator` | Génère des mots de passe aléatoires |
+| `Crypto` | Chiffre et déchiffre les données |
+| `App` | Gère l'interface en ligne de commande |
+
+**🛠️ Technologies**
+
+![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+![Chiffrement](https://img.shields.io/badge/XOR_+_Base64-FF6B6B?style=flat-square)
+
+**📂 Lien GitHub** → [PASSWORLD v2](https://github.com/silverfish000/passworld-v2)
+
+---
+
+</details>
+
+<details>
+<summary><b>🔓 PASSWORD v1</b> - Version Initiale (Projet de référence)</summary>
+
+<br>
+
+**📊 Statut**
+
+![Statut](https://img.shields.io/badge/Statut-Termin%C3%A9-success?style=for-the-badge)
+
+**🎯 Objectif**
+
+Premier système de gestion de mots de passe en Python avec stockage local. Ce projet correspond à mes débuts en développement et est volontairement laissé imparfait afin de servir de référence pour mesurer mon évolution à travers les versions futures.
+
+**⚠️ Caractéristiques**
+
+- ✅ Système basique d'ajout/suppression de mots de passe
+- ❌ Pas de chiffrement (stockage en clair)
+- ❌ Pas d'architecture POO
+- ❌ Interface CLI minimaliste
+
+**📈 Évolution v1 → v2**
+
+| Aspect | v1 | v2 |
+|--------|----|----|
+| Architecture | Procédurale | POO (7 classes) |
+| Sécurité | ❌ Aucune | ✅ Chiffrement XOR + Base64 |
+| Interface | Basique | CLI intuitive |
+| Validation | ❌ Non | ✅ Validator |
+| Génération | ❌ Non | ✅ Generator personnalisable |
+
+**🛠️ Technologies**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Basique](https://img.shields.io/badge/Projet_Basique-gray?style=flat-square)
+
+**📂 Lien GitHub** → [PASSWORD v1](https://github.com/silverfish000/projet-n1)
+
+---
+
+</details>
 
 <div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-#### 🔐 [PASSWORD (v1)](https://github.com/silverfish000/projet-n1)
-
-**Gestionnaire de Mots de Passe**
-
-Un système de gestion de mots de passe en Python avec un stockage local. (Ce projet correspond à mes débuts en développement et est volontairement laissé imparfait afin de servir de référence pour mesurer mon évolution à travers les versions futures.)
-
-`Python` `Sécurité` `CLI` `Projet basique` `NO ENCRYPT`
-
-</td>
-<td align="center" width="50%">
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmg1NWhwZDB0aGRueHNvZW93dGpzcWozeGJoaWh5OHVrZTBlc3lqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3wr2cnwlghNomDeN9W/giphy.gif" width="300">
-</td>
-</tr>
-</table>
-
 </div>
 
 ---

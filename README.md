@@ -59,10 +59,10 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 
 **📊 Avancement du projet**
 
-![Progression](https://img.shields.io/badge/Progression-25%25-orange?style=for-the-badge)
+![Progression](https://img.shields.io/badge/Progression-50%25-orange?style=for-the-badge)
 
 ```
-████████████████████░░░░░░░░░░░░░░░░ 50%
+██████████████████░░░░░░░░░░░░░░░░░░ 50%
 ```
 
 **🎯 Objectif**

@@ -97,7 +97,7 @@ Créer un gestionnaire de mots de passe sécurisé en ligne de commande, dévelo
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 ![Chiffrement](https://img.shields.io/badge/XOR_+_Base64-FF6B6B?style=flat-square)
 
-**📂 Lien GitHub** → [PASSWORLD v2](https://github.com/silverfish000/passworld-v2)
+**📂 Lien GitHub** → [PASSWORLD v2](https://github.com/silverfish000/GESTIONNAIRE_MDP_v2)
 
 ---
 

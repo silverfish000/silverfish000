@@ -19,7 +19,8 @@
 
 ### À propos
 
-Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025 → Retry Piscine 2026) 
+Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2025 → Retry Piscine 2026)
+Ce GitHub sert à illustrer toute ma progression, depuis mes debuts en tant que developpeur junior jusqu'a, je l'espere developpeur senior.
 
 **Mes centres d'intérêt :**
 - 🔒 Cybersécurité & Ethical Hacking

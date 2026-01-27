@@ -53,56 +53,70 @@ Actuellement en formation pour intégrer l'**École 42** (Piscine en septembre 2
 ### 📦 Projets Python
 
 <details>
-<summary><b>🔐 PASSWORLD v2</b> - Gestionnaire de Mots de Passe (En développement)</summary>
+<summary><b>🔐 PASSWORLD v2</b> - Gestionnaire de Mots de Passe</summary>
 
 <br>
 
-**📊 Avancement du projet**
+**📊 Statut**
 
-![Progression](https://img.shields.io/badge/Progression-50%25-orange?style=for-the-badge)
+![Progression](https://img.shields.io/badge/Statut-Termine-brightgreen?style=for-the-badge)
 
-```
-██████████████████░░░░░░░░░░░░░░░░░░ 50%
-```
+**Description**
 
-**🎯 Objectif**
+Gestionnaire de mots de passe en ligne de commande avec chiffrement local. Refonte complete de la v1 pour apprendre la POO et la manipulation de fichiers JSON.
 
-Créer un gestionnaire de mots de passe sécurisé en ligne de commande, développé en Python. Ce projet est une refonte complète de la v1 pour apprendre à structurer une application avec la POO, comprendre les bases du chiffrement et créer un outil fonctionnel pour gérer mes mots de passe en local.
+**Fonctionnalites**
 
-**✨ Fonctionnalités**
+- Ajout/suppression/recherche de mots de passe
+- Generateur de mots de passe personnalisable
+- Validation des regles de securite (longueur, majuscules, chiffres, symboles)
+- Chiffrement XOR + Base64
+- Sauvegarde en JSON
+- Detection des doublons (insensible a la casse)
+- Blacklist de mots de passe courants
 
-- ✅ Système de connexion avec mot de passe maître
-- ✅ Ajouter / modifier / supprimer des mots de passe
-- ✅ Recherche par nom
-- ✅ Générateur de mots de passe personnalisable
-- 🚧 Chiffrement des données (XOR + Base64)
-- 🚧 Sauvegarde en JSON
-- 📋 Interface CLI améliorée (à venir)
+**Architecture**
 
-**🏗️ Architecture POO**
+7 fichiers Python structures en POO :
+- `Crypto` : chiffrement/dechiffrement
+- `Validator` : verification des regles
+- `Generator` : creation aleatoire
+- `Manager` : gestion CRUD
+- `PasswordApp` : interface menu
+- `config.py` : constantes
+- `main.py` : point d'entree
 
-| Classe | Rôle |
-|--------|------|
-| `Password` | Représente un mot de passe (nom, mdp, url, notes, dates) |
-| `User` | Représente un utilisateur (pseudo, mot de passe maître) |
-| `PasswordManager` | Gère les mots de passe (ajout, modif, suppression, sauvegarde) |
-| `Validator` | Vérifie la solidité des mots de passe |
-| `Generator` | Génère des mots de passe aléatoires |
-| `Crypto` | Chiffre et déchiffre les données |
-| `App` | Gère l'interface en ligne de commande |
+**Ce que j'ai appris**
 
-**🛠️ Technologies**
+POO, manipulation JSON, chiffrement de base, validation d'entrees, gestion d'erreurs, architecture modulaire.
 
-![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
-![Chiffrement](https://img.shields.io/badge/XOR_+_Base64-FF6B6B?style=flat-square)
+**Evolution v1 → v2**
+
+| v1 | v2 |
+|----|---|
+| Code procedural | POO (7 classes) |
+| Pas de securite | Chiffrement XOR + Base64 |
+| Pas de validation | Regles strictes + blacklist |
+| Interface basique | Menu avec gestion erreurs |
+
+**A ameliorer pour v3**
+
+- Ajouter AES-256 au lieu de XOR
+- Passer de JSON a SQLite
+- Permettre d'ajouter des mots a la blacklist depuis l'interface
+- Ajouter un historique des modifications
+- Creer une interface graphique simple (KIVY)
+- Implementer l'authentification 2FA
+
+**Technologies**
+
+Python 3.13 • JSON • XOR + Base64 • POO
 
 **📂 Lien GitHub** → [PASSWORLD v2](https://github.com/silverfish000/GESTIONNAIRE_MDP_v2)
 
 ---
 
 </details>
-
 <details>
 <summary><b>🔓 PASSWORD v1</b> - Version Initiale (Projet de référence)</summary>
 

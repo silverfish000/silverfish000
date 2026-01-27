@@ -110,15 +110,16 @@ Créer un gestionnaire de mots de passe sécurisé en ligne de commande, dévelo
 
 **📊 Statut**
 
-![Statut](https://img.shields.io/badge/Statut-Termin%C3%A9-success?style=for-the-badge)
+![Statut](https://img.shields.io/badge/Statut-Version_Initiale-blue?style=for-the-badge)
 
 **🎯 Objectif**
 
-Premier système de gestion de mots de passe en Python avec stockage local. Ce projet correspond à mes débuts en développement et est volontairement laissé imparfait afin de servir de référence pour mesurer mon évolution à travers les versions futures.
+Premier système de gestion de mots de passe en Python avec stockage local. Ce projet correspond à mes débuts en développement et sert de base fonctionnelle pour mesurer mon évolution à travers les versions futures.
 
 **⚠️ Caractéristiques**
 
 - ✅ Système basique d'ajout/suppression de mots de passe
+- ⚠️ Fonctionnalités limitées (projet d'apprentissage)
 - ❌ Pas de chiffrement (stockage en clair)
 - ❌ Pas d'architecture POO
 - ❌ Interface CLI minimaliste
